@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(15, 59, 17);
+    width: 100%;
+    height: 100vh;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+nav {
+    background-color: rgb(31, 92, 31);
+    padding: 0px 10rem;
+}
+
+.logo {
+    background-color: white;
+    display: inline-block;
+    padding: 1.5em 1.5em;
+    font-weight: bold;
+    color: rgb(31, 92, 31);
+    font-size: 1.3rem;
+}
+
+ul {
+    display: inline-block;
+    width: 700px;
+    margin-left: 7rem;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 2rem;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+.div1 {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.div1 h1 p {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+.div1 p {
+    color: green;
+}
+section{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(41, 40, 40);
+    color: azure;
+    position: relative;
+}
+.div2{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+.p3{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.p4{
+    font-size: 0.9rem;
+    font-style: italic;
+}
+.div3{
+    width: 100%;
+    margin: 50px auto;
+}
+a, i{
+    font-size: 1.7rem;
+    margin-left: 10px;
+}
+.div4{
+    width: 50%;
+    margin-left: 470px;
+}
+.div5{
+    width: 50%;
+    margin-left: 510px;
+    margin-top: 10px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20vh;
+    border-top: 3px solid rgb(41, 70, 41);
+}
+
+.div6{
+    width: 60%;
+    margin-left: 300px;
+    padding: 0 10rem;
+} 
+.p6{
+    display: inline-block;
+}
